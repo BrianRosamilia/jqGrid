@@ -202,7 +202,7 @@
 		if(!$.fmatter.isEmpty(cellval)) {
 			return $.jgrid.parseDate(op.srcformat,cellval,op.newformat,op);
 		}
-		return $.fn.fmatter.defaultFormat(cellval, opts);
+		return $.fn.fmatter.defaultFormat(cellval, op);
 	};
 	$.fn.fmatter.select = function (cellval,opts) {
 		// jqGrid specific
